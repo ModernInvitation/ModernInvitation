@@ -1,0 +1,176 @@
+:root {
+    --color: rgb(255, 153, 0);
+}
+
+.hero {
+    min-height: 100vh;
+    position: relative;
+    background-color: rgb(255, 245, 234);
+}
+
+/* img hiasan */
+.hero .atas-kanan {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.hero .bawah-kiri {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+/* Judul */
+.hero .row {
+    height: 100vh;
+    position: relative;
+}
+
+.hero main {
+    position: relative;
+    width: 400px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.hero .bingkai {
+    width: 500px;
+    position: absolute;
+}
+
+.hero button {
+    color: white;
+    border: none;
+    letter-spacing: 3px;
+    background-color: rgb(255, 218, 178);
+}
+.hero button:hover {
+    color: white;
+    border: none;
+    transform: scale(120%);
+    transition: 1s;
+    letter-spacing: 3px;
+    background-color: rgb(255, 218, 178);
+}
+
+/* Audio */
+.audio {
+    background-color: rgb(255, 250, 243);
+}
+
+/* Acara */
+.acara {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    background-color: rgb(255, 250, 243);
+    position: relative;
+    overflow: hidden;
+    font-family: 'Poppins', sans-serif;
+}
+
+.acara svg {
+    top: 0;
+}
+
+.acara img {
+    width: 300px;
+    border-radius: 50px;
+}
+
+.acara .samping-kiri {
+    position: absolute;
+    width: 150px;
+    left: -75px;
+    opacity: 65%;
+    transform: rotate(20deg);
+    top: 50%;
+}
+
+.acara .samping-kanan {
+    position: absolute;
+    width: 150px;
+    right: -70px;
+    opacity: 65%;
+    transform: rotate(20deg);
+    top: 50%;
+}
+
+.acara .bismillah {
+    width: 170px;
+    margin-top: 4rem;
+}
+
+.acara button {
+    color: rgb(0, 0, 0);
+    border: 2px solid rgb(255, 218, 178);
+    background-color: rgba(255, 218, 178, 0);
+}
+
+.acara button:hover {
+    color: white;
+    border: 2px solid rgb(255, 218, 178);
+    background-color: rgb(255, 218, 178);
+}
+
+/* Waktu */
+.waktu {
+    padding-bottom: 2rem;
+    background-color: rgb(255, 250, 243);
+    font-family: 'Poppins', sans-serif;
+}
+
+.waktu .hitung-mundur {
+    border: 2px dotted rgb(77, 61, 52);
+    border-radius: 10px;
+}
+
+.waktu h1 {
+    color: var(--color);
+}
+
+/* Penutup */
+.penutup {
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    background-color: rgb(255, 245, 234);
+}
+
+.penutup .tengah {
+    position: relative;
+    width: 200px;
+    top: -48px;
+}
+
+.penutup .bawah-kiri-1 {
+    position: absolute;
+    width: 150px;
+    bottom: 0;
+    left: 0;
+}
+.penutup .bawah-kanan {
+    position: absolute;
+    width: 150px;
+    bottom: 0;
+    right: 0;
+    transform: rotate(270deg);
+}
+
+
+@media (max-width: 576px) {
+    .hero main {
+        font-size: 35px;
+    }
+    .acara {
+        font-size: 13px;
+    }
+    
+    .penutup {
+        font-size: 13px;
+    }
+
+}
