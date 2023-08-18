@@ -29,12 +29,40 @@
 
 .hero main {
     position: relative;
-    width: 400px;
-    line-height: 50px;
+    width: 500px;
+    line-height: 15px;
     text-align: center;
     font-size: 40px;
     font-family: 'Poppins', sans-serif;
 }
+
+
+.hero main small {
+    font-size: .7rem;
+    font-family: 'Lumanosimo', cursive;
+}
+
+.hero main h1 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 3rem;
+}
+
+.hero main h2 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 2.3rem;
+}
+
+.hero main h5 {
+    font-size: 1.1rem;
+    font-family: 'Lumanosimo', cursive;
+}
+
+.hero main img {
+    width: 130px;
+    display: flex;
+    text-align: center;
+}
+
 
 .hero .bingkai {
     width: 500px;
@@ -143,7 +171,7 @@
 .penutup .tengah {
     position: relative;
     width: 200px;
-    top: -48px;
+    top: -32px;
 }
 
 .penutup .bawah-kiri-1 {
@@ -162,9 +190,6 @@
 
 
 @media (max-width: 576px) {
-    .hero main {
-        font-size: 35px;
-    }
     .acara {
         font-size: 13px;
     }
