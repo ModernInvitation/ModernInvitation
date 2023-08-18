@@ -13,12 +13,14 @@
     position: absolute;
     top: 0;
     right: 0;
+    width: 170px;
 }
 
 .hero .bawah-kiri {
     position: absolute;
     bottom: 0;
     left: 0;
+    width: 165px;
 }
 
 /* Judul */
@@ -58,7 +60,7 @@
 }
 
 .hero main img {
-    width: 120px;
+    width: 130px;
     display: flex;
     text-align: center;
 }
